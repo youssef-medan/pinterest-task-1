@@ -1,0 +1,225 @@
+*{margin: 0;}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    width: 50%;
+    text-align: center;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.header-span{
+    color: rgb(0, 235, 235);
+}
+.nav-i{
+    width: 15%;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.sec1{
+    background-image: url(./pexels-pixabay-355747.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    height: 500px;
+    position: relative;
+
+}
+h1{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(35, 35, 35) ;
+   
+}
+.sec1-span{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.SEC1-INP{
+    position: absolute;
+    left: 47%;
+    top: 61%;
+    background-color: rgb(61, 61, 61);
+    color: rgba(255, 255, 255, 0.874);
+    height: 31px;
+    width: 130px;
+    border: 0px solid rgba(28, 28, 28, 0.918);
+    border-radius: 2px 2px 2px 2px;
+}
+.sec2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.sec2-art{
+    width: 25%;
+    height: 200px;
+    margin-inline-start: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1{background-image: url(./pen.png);}
+.img2{background-image: url(./layer.png);}
+.img3{background-image: url(./shuttle.png);}
+.img1,.img2,.img3{
+    background-position: center;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    border: 3px solid rgb(22, 22, 22);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.sec3{
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgba(97, 97, 97, 0.046);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3 p{
+    height: 60px;
+    width: 80%;
+    text-align:center;
+    margin-top: 20px;
+}
+.sec3 h2{
+    border-bottom: 2px solid rgb(0, 254, 254);
+    height: 40px;
+    width:fit-content;
+    margin-top: 40px;
+}
+.sec4{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.s4-art{
+    width: 40%;
+    height: 400px;
+    background-image: url(./mountains-7ddde89.jpg);
+    position: relative;
+}
+.s4-h2{
+    position: absolute;
+    bottom: 78%;
+    
+}
+.s4-p{
+    position: absolute;
+    bottom: 37%;
+    left: 7%;
+    max-width: 40%;
+    border-top: 2px solid rgb(0, 235, 235);
+    width: fit-content;
+    padding-top: 15px;
+    
+}
+.s4-inp{
+    position: absolute;
+    bottom: 10%;
+    left: 16%;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(0, 235, 235);
+    border: 2px solid rgb(0, 235, 235);
+    height: 30px;
+    width: 110px;
+
+}
+.s4-art-color{
+    background-color: rgba(255, 255, 255, 0.84);
+    width: 50%;
+    height: 100%;
+}
+.sec5{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.sec5 p{
+    height: 50px;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.sec5 h2{
+    
+    height: 50px;
+    width:fit-content;
+    border-bottom:2px solid rgb(0, 254, 254) ;
+    
+}
+.sec5 input{
+    margin-top: 20px;
+    height: 35px;
+    width: 130px;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(0, 235, 235);
+    border: 2px solid rgb(0, 203, 234);
+    border-radius: 3px 3px 3px 3px;
+}
+footer{
+    background-color: rgba(97, 97, 97, 0.046);
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 400px;
+   padding-inline-start: 100px;
+   padding-inline-end: 100px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.fot-div1 a{
+    color: rgb(0, 215, 215);
+    text-decoration: underline dotted;
+    font-weight: bold;
+    
+}
+.fot-div1 p{
+    margin-bottom: 10px;
+}
+
+.fot-div2{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.fot-div2-ch{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-content: space-between;
+}
+.fot-div2-ch a{
+    width: 200px;
+    height: 30px;
+    color: black;
+    text-decoration:none;
+}
+
