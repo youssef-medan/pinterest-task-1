@@ -631,10 +631,10 @@ footer{
   
 @media screen and (max-width:768px){
   body{
-    width: 0 auto;
+    
   }
   .nav-i{
-    width: 50%;
+    width: 20%;
   }
   .sec1{
     height: 300px;
